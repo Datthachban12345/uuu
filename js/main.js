@@ -1,6 +1,7 @@
 src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js";
 var swiper = new Swiper(".swiper-normal", {
     slidesPerView: 2, // Số slide mặc định hiển thị
+    spaceBetween: 24,
     breakpoints: {
       // Khi màn hình >= 640px
       640: {
@@ -8,7 +9,7 @@ var swiper = new Swiper(".swiper-normal", {
       },
       // Khi màn hình >= 1537px
       1537: {
-        slidesPerView: 4, // Hiển thị 4 slide trên màn hình lớn
+        slidesPerView:4, // Hiển thị 4 slide trên màn hình lớn
       },
     },
   navigation: {
@@ -31,7 +32,7 @@ var swiper3dDat = new Swiper(".swiper-3d-dat", {
     grabCursor: true,
     centeredSlides: true,
     loop:true,
-    slidesPerView: 2,
+    slidesPerView: 1.5,
     spaceBetween: 40, // Số slide mặc định hiển thị
     breakpoints: {
       // Khi màn hình >= 640px
