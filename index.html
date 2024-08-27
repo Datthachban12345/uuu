@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        html,
+        body {
+          position: relative;
+          height: 100%;
+        }
+        body {
+          background: #eee;
+          font-size: 14px;
+          color: #000;
+          margin: 0;
+          padding: 0;
+        }
+    
+        .swiper.swiper-normal {
+          width: 100%;
+          height: 137px;
+        }
+    
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+        }
+        .swiper-slide img {
+          display: block;
+        }
+        .shadow_right{
+            width:32px;
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+            top: 0;
+            right: 0;
+        }
+        .shadow_left{
+            width:32px;
+            background: linear-gradient(275deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+            top: 0;
+            left: 0;
+        }
+      </style>
+</head>
+<body>
+    <div class="container" style="margin:auto">
+        <div class="team flex items-center relative sm:justify-start justify-center mb-4 sm:mb-8">
+            <h2 class="team-1 relative font-semibold sm:text-lg sm:text-3xl pr-6">Đội ngũ chuyên môn</h2>
+            <div class=" lg:w-[0.5px] lg:h-5 bg-gray-300 lg:mx-2 "></div>
+            <div class="">
+                <a class="pl-6 team-2 font-semibold sm:text-sm hidden sm:block sm:text-lg text-[#044AA0] cursor-pointer underline border-b-[#044AA0]">Xem tất cả</a>
+            </div>
+           </div>
+           <div class="relative hidden xl:block">
+            <div class="swiper swiper-normal mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-slide-2d-dat mr-6 bg-[#E6F4FC] border-[0.5px] border-[#044AA0] rounded-[0.75rem]">
+                  <div class="swiper-slide-parent h-full w-full flex items-center">
+                      <img src="0ab5b24a83e04d793130ea3476f5ec2d.png" alt="" class="m-4 swiper-slide-child-img h-20 w-20 rounded-full" style="object-fit: contain;">
+                      <div class="swiper-slide-child-title flex flex-col text-left my-6 mr-4">
+                          <span class="swiper-slide-child-1-name text-xl text-[#044AA0]">Bác sĩ</span>
+                          <span class="swiper-slide-child-1-work text-xl font-semibold">Nguyễn Hoàng Dương</span>
+                          <span class="swiper-slide-child-1-title text-xl font-normal">Chuẩn đoán hình ảnh</span>
+                      </div>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide-2d-dat mr-6 bg-[#E6F4FC] border-[0.5px] border-[#044AA0] rounded-[0.75rem]">
+                  <div class="swiper-slide-parent h-full w-full flex items-center">
+                      <img src="0ab5b24a83e04d793130ea3476f5ec2d.png" alt="" class="m-4 swiper-slide-child-img h-20 w-20 rounded-full" style="object-fit: contain;">
+                      <div class="swiper-slide-child-title flex flex-col text-left my-6 mr-4">
+                          <span class="swiper-slide-child-1-name text-xl text-[#044AA0]">Bác sĩ</span>
+                          <span class="swiper-slide-child-1-work text-xl font-semibold">Nguyễn Hoàng Dương</span>
+                          <span class="swiper-slide-child-1-title text-xl font-normal">Chuẩn đoán hình ảnh</span>
+                      </div>
+                  </div>
+                </div> 
+                <div class="swiper-slide swiper-slide-2d-dat mr-6 bg-[#E6F4FC] border-[0.5px] border-[#044AA0] rounded-[0.75rem]">
+                  <div class="swiper-slide-parent h-full w-full flex items-center">
+                      <img src="0ab5b24a83e04d793130ea3476f5ec2d.png" alt="" class="m-4 swiper-slide-child-img h-20 w-20 rounded-full" style="object-fit: contain;">
+                      <div class="swiper-slide-child-title flex flex-col text-left my-6 mr-4">
+                          <span class="swiper-slide-child-1-name text-xl text-[#044AA0]">Bác sĩ</span>
+                          <span class="swiper-slide-child-1-work text-xl font-semibold">Nguyễn Hoàng Dương</span>
+                          <span class="swiper-slide-child-1-title text-xl font-normal">Chuẩn đoán hình ảnh</span>
+                      </div>
+                  </div>
+                </div> 
+                <div class="swiper-slide swiper-slide-2d-dat mr-6 bg-[#E6F4FC] border-[0.5px] border-[#044AA0] rounded-[0.75rem]">
+                  <div class="swiper-slide-parent h-full w-full flex items-center">
+                      <img src="0ab5b24a83e04d793130ea3476f5ec2d.png" alt="" class="m-4 swiper-slide-child-img h-20 w-20 rounded-full" style="object-fit: contain;">
+                      <div class="swiper-slide-child-title flex flex-col text-left my-6 mr-4">
+                          <span class="swiper-slide-child-1-name text-xl text-[#044AA0]">Bác sĩ</span>
+                          <span class="swiper-slide-child-1-work text-xl font-semibold">Nguyễn Hoàng Dương</span>
+                          <span class="swiper-slide-child-1-title text-xl font-normal">Chuẩn đoán hình ảnh</span>
+                      </div>
+                  </div>
+                </div> 
+                <div class="swiper-slide swiper-slide-2d-dat mr-6 bg-[#E6F4FC] border-[0.5px] border-[#044AA0] rounded-[0.75rem]">
+                  <div class="swiper-slide-parent h-full w-full flex items-center">
+                      <img src="0ab5b24a83e04d793130ea3476f5ec2d.png" alt="" class="m-4 swiper-slide-child-img h-20 w-20 rounded-full" style="object-fit: contain;">
+                      <div class="swiper-slide-child-title flex flex-col text-left my-6 mr-4">
+                          <span class="swiper-slide-child-1-name text-xl text-[#044AA0]">Bác sĩ</span>
+                          <span class="swiper-slide-child-1-work text-xl font-semibold">Nguyễn Hoàng Dương</span>
+                          <span class="swiper-slide-child-1-title text-xl font-normal">Chuẩn đoán hình ảnh</span>
+                      </div>
+                  </div>
+                </div>
+                <div class="swiper-slide mr-6 swiper-slide-2d-dat bg-[#E6F4FC] border-[0.5px] border-[#044AA0] rounded-[0.75rem]">
+                  <div class="swiper-slide-parent h-full w-full flex items-center">
+                      <img src="0ab5b24a83e04d793130ea3476f5ec2d.png" alt="" class="m-4 swiper-slide-child-img h-20 w-20 rounded-full" style="object-fit: contain;">
+                      <div class="swiper-slide-child-title flex flex-col text-left my-6 mr-4">
+                          <span class="swiper-slide-child-1-name text-xl text-[#044AA0]">Bác sĩ</span>
+                          <span class="swiper-slide-child-1-work text-xl font-semibold">Nguyễn Hoàng Dương</span>
+                          <span class="swiper-slide-child-1-title text-xl font-normal">Chuẩn đoán hình ảnh</span>
+                      </div>
+                  </div>
+                </div>
+                <div class="swiper-slide mr-6 swiper-slide-2d-dat bg-[#E6F4FC] border-[0.5px] border-[#044AA0] rounded-[0.75rem]">
+                  <div class="swiper-slide-parent h-full w-full flex items-center">
+                      <img src="0ab5b24a83e04d793130ea3476f5ec2d.png" alt="" class="m-4 swiper-slide-child-img h-20 w-20 rounded-full" style="object-fit: contain;">
+                      <div class="swiper-slide-child-title flex flex-col text-left my-6 mr-4">
+                          <span class="swiper-slide-child-1-name text-xl text-[#044AA0]">Bác sĩ</span>
+                          <span class="swiper-slide-child-1-work text-xl font-semibold">Nguyễn Hoàng Dương</span>
+                          <span class="swiper-slide-child-1-title text-xl font-normal">Chuẩn đoán hình ảnh</span>
+                      </div>
+                  </div>
+                </div>
+                <div class="swiper-slide mr-6 swiper-slide-2d-dat bg-[#E6F4FC] border-[0.5px] border-[#044AA0] rounded-[0.75rem]">
+                  <div class="swiper-slide-parent h-full w-full flex items-center">
+                      <img src="0ab5b24a83e04d793130ea3476f5ec2d.png" alt="" class="m-4 swiper-slide-child-img h-20 w-20 rounded-full" style="object-fit: contain;">
+                      <div class="swiper-slide-child-title flex flex-col text-left my-6 mr-4">
+                          <span class="swiper-slide-child-1-name text-xl text-[#044AA0]">Bác sĩ</span>
+                          <span class="swiper-slide-child-1-work text-xl font-semibold">Nguyễn Hoàng Dương</span>
+                          <span class="swiper-slide-child-1-title text-xl font-normal">Chuẩn đoán hình ảnh</span>
+                      </div>
+                  </div>
+                </div>
+                <div class="swiper-slide mr-6 swiper-slide-2d-dat bg-[#E6F4FC] border-[0.5px] border-[#044AA0] rounded-[0.75rem]">
+                  <div class="swiper-slide-parent h-full w-full flex items-center">
+                      <img src="0ab5b24a83e04d793130ea3476f5ec2d.png" alt="" class="m-4 swiper-slide-child-img h-20 w-20 rounded-full" style="object-fit: contain;">
+                      <div class="swiper-slide-child-title flex flex-col text-left my-6 mr-4">
+                          <span class="swiper-slide-child-1-name text-xl text-[#044AA0]">Bác sĩ</span>
+                          <span class="swiper-slide-child-1-work text-xl font-semibold">Nguyễn Hoàng Dương</span>
+                          <span class="swiper-slide-child-1-title text-xl font-normal">Chuẩn đoán hình ảnh</span>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="shadow_right absolute h-full z-10"></div>
+            <div class="swiper-button-next button-next-dat rounded-full z-20" ></div>
+            <div class="swiper-button-prev button-prev-dat rounded-full z-20 hidden"></div>
+            <div class="shadow_left absolute h-full z-10"></div>
+           </div>
+           <section class="collection xl:hidden block">
+            <div class="swiper mySwiper swiper-3d-dat">
+              <div class="swiper-wrapper">
+                <div class="content swiper-slide-dat-3d swiper-slide rounded-2xl bg-[#E6F4FC] border-[0.5px] border-[#044AA0] rounded-[0.75rem]">
+                  <div class="my-4 w-full h-full flex flex-col items-center">
+                    <img src="0ab5b24a83e04d793130ea3476f5ec2d.png" alt="" class="rounded-full w-20 h-20">
+                    <span class="worker-3d-dat font-normal text-base">Bác sĩ</span>
+                    <span class="font-semibold text-base">Nguyễn Hoàng Dương1</span>
+                    <span class="font-normal text-sm">Chuẩn đoán hình ảnh</span>
+                  </div>
+                </div>
+                <div class="content swiper-slide-dat-3d swiper-slide rounded-2xl bg-[#E6F4FC] border-[0.5px] border-[#044AA0] rounded-[0.75rem]" >
+                  <div class="my-4 w-full h-full flex flex-col items-center">
+                    <img src="0ab5b24a83e04d793130ea3476f5ec2d.png" alt="" class="rounded-full w-20 h-20">
+                    <span class="worker-3d-dat font-normal text-base">Bác sĩ</span>
+                    <span class="font-semibold text-base">Nguyễn Hoàng Dương2</span>
+                    <span class="font-normal text-sm">Chuẩn đoán hình ảnh</span>
+                  </div>
+                </div>
+                <div class="content swiper-slide-dat-3d swiper-slide rounded-2xl bg-[#E6F4FC] border-[0.5px] border-[#044AA0] rounded-[0.75rem]" >
+                  <div class="my-4 w-full h-full flex flex-col items-center">
+                    <img src="0ab5b24a83e04d793130ea3476f5ec2d.png" alt="" class="rounded-full w-20 h-20">
+                    <span class="worker-3d-dat font-normal text-base">Bác sĩ</span>
+                    <span class="font-semibold text-base">Nguyễn Hoàng Dương3</span>
+                    <span class="font-normal text-sm">Chuẩn đoán hình ảnh</span>
+                  </div>
+                </div>
+                <div class="content swiper-slide-dat-3d swiper-slide rounded-2xl bg-[#E6F4FC] border-[0.5px] border-[#044AA0] rounded-[0.75rem]" >
+                  <div class="my-4 w-full h-full flex flex-col items-center">
+                    <img src="0ab5b24a83e04d793130ea3476f5ec2d.png" alt="" class="rounded-full w-20 h-20">
+                    <span class="worker-3d-dat font-normal text-base">Bác sĩ</span>
+                    <span class="font-semibold text-base">Nguyễn Hoàng Dương4</span>
+                    <span class="font-normal text-sm">Chuẩn đoán hình ảnh</span>
+                  </div>
+                </div>
+                <div class="content swiper-slide-dat-3d swiper-slide rounded-2xl bg-[#E6F4FC] border-[0.5px] border-[#044AA0] rounded-[0.75rem]" >
+                  <div class="my-4 w-full h-full flex flex-col items-center">
+                    <img src="0ab5b24a83e04d793130ea3476f5ec2d.png" alt="" class="rounded-full w-20 h-20">
+                    <span class="worker-3d-dat font-normal text-base">Bác sĩ</span>
+                    <span class="font-semibold text-base">Nguyễn Hoàng Dương5</span>
+                    <span class="font-normal text-sm">Chuẩn đoán hình ảnh</span>
+                  </div>
+                </div>
+                <div class="content swiper-slide-dat-3d swiper-slide rounded-2xl bg-[#E6F4FC] border-[0.5px] border-[#044AA0] rounded-[0.75rem]" >
+                  <div class="my-4 w-full h-full flex flex-col items-center">
+                    <img src="0ab5b24a83e04d793130ea3476f5ec2d.png" alt="" class="rounded-full w-20 h-20">
+                    <span class="worker-3d-dat font-normal text-base">Bác sĩ</span>
+                    <span class="font-semibold text-base">Nguyễn Hoàng Dương6</span>
+                    <span class="font-normal text-sm">Chuẩn đoán hình ảnh</span>
+                  </div>
+                </div>
+                <div class="content swiper-slide-dat-3d swiper-slide rounded-2xl bg-[#E6F4FC] border-[0.5px] border-[#044AA0] rounded-[0.75rem]" >
+                  <div class="my-4 w-full h-full flex flex-col items-center">
+                    <img src="0ab5b24a83e04d793130ea3476f5ec2d.png" alt="" class="rounded-full w-20 h-20">
+                    <span class="worker-3d-dat font-normal text-base">Bác sĩ</span>
+                    <span class="font-semibold text-base">Nguyễn Hoàng Dương7</span>
+                    <span class="font-normal text-sm">Chuẩn đoán hình ảnh</span>
+                  </div>
+                </div>
+                <div class="content swiper-slide-dat-3d swiper-slide rounded-2xl bg-[#E6F4FC] border-[0.5px] border-[#044AA0] rounded-[0.75rem]" >
+                  <div class="my-4 w-full h-full flex flex-col items-center">
+                    <img src="0ab5b24a83e04d793130ea3476f5ec2d.png" alt="" class="rounded-full w-20 h-20">
+                    <span class="worker-3d-dat font-normal text-base">Bác sĩ</span>
+                    <span class="font-semibold text-base">Nguyễn Hoàng Dương8</span>
+                    <span class="font-normal text-sm">Chuẩn đoán hình ảnh</span>
+                  </div>
+                </div>
+                <div class="content swiper-slide-dat-3d swiper-slide rounded-2xl bg-[#E6F4FC] border-[0.5px] border-[#044AA0] rounded-[0.75rem]" >
+                  <div class="my-4 w-full h-full flex flex-col items-center">
+                    <img src="0ab5b24a83e04d793130ea3476f5ec2d.png" alt="" class="rounded-full w-20 h-20">
+                    <span class="worker-3d-dat font-normal text-base">Bác sĩ</span>
+                    <span class="font-semibold text-base">Nguyễn Hoàng Dương</span>
+                    <span class="font-normal text-sm">Chuẩn đoán hình ảnh</span>
+                  </div>
+                </div>
+            </div>
+            </div>
+          </section>
+
+
+    </div>
+
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./js/main.js"></script>
+</html>
