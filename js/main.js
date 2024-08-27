@@ -9,7 +9,7 @@ var swiper = new Swiper(".swiper-normal", {
       },
       // Khi màn hình >= 1537px
       1537: {
-        slidesPerView:4, // Hiển thị 4 slide trên màn hình lớn
+        slidesPerView:3.5, // Hiển thị 4 slide trên màn hình lớn
       },
     },
   navigation: {
